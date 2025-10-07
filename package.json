@@ -1,0 +1,18 @@
+{
+  "name": "findcare-api",
+  "version": "1.0.0",
+  "description": "API for Find Care App (GoodBarber Custom Map JSON)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.x"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "mssql": "^10.0.0"
+  }
+}
